@@ -1,70 +1,44 @@
-# React.js and Tailwind CSS Assignment
+# 🧩 Week 3 – React Task Manager (Application with Tailwind CSS)
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A responsive React application demonstrating modern component architecture, state management with hooks, local persistence, and API integration.  
+Built using **Vite + React 18 + Tailwind CSS 3**.
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## 🚀 Live Demo
+**Deployed URL:** [https://your-app-name.vercel.app](https://your-app-name.vercel.app)  
+*(Replace this with your actual deployed URL after publishing to Vercel / Netlify / GitHub Pages.)*
 
-## Getting Started
+---
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
-
-## Files Included
-
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
-
-## Project Structure
-
-```
+## 🧱 Project Structure
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+├── App.jsx
+├── main.jsx
+├── context/
+│ └── ThemeContext.jsx
+├── hooks/
+│ └── useLocalStorage.js
+├── components/
+│ ├── Navbar.jsx
+│ ├── Footer.jsx
+│ ├── Button.jsx
+│ ├── Card.jsx
+│ └── TaskManager.jsx
+└── pages/
+├── Home.jsx
+└── ApiData.jsx
 
-## Submission
+---
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+## ⚙️ Setup & Installation
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+### 1️⃣ Clone your repository
+```bash
+git clone https://github.com/your-username/week3-task-manager.git
+cd week3-task-manager
+npm install
+npm run dev
+npm run build
+npm run preview
 
-## Resources
-
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
